@@ -18,7 +18,7 @@
  * 5.1		690.10
  * 6.x		793.00
  * 7.0		847.20
- * 7.0.3	847.21
+ * 7.0.3            847.21
  * 7.1		847.26
  * 8.0		1140.10
  * 8.1		1141.14
@@ -36,6 +36,7 @@
  * 11.0		1443.00
  * 11.1		1445.32
  * 11.2		1450.14
+ * 13.0             1665.15
  *
  * Reference: http://iphonedevwiki.net/index.php/CoreFoundation.framework#Versions
  */
@@ -144,6 +145,10 @@
 
 #ifndef kCFCoreFoundationVersionNumber_iOS_11_2
 #define kCFCoreFoundationVersionNumber_iOS_11_2 1450.14
+#endif
+
+#ifndef kCFCoreFoundationVersionNumber_iOS_13_0
+#define kCFCoreFoundationVersionNumber_iOS_13_0 1665.15
 #endif
 
 #ifndef kCFCoreFoundationVersionNumber10_10
