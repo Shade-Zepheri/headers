@@ -9,8 +9,6 @@
 
 - (void)deactivateForButton;
 
-@property (nonatomic, retain) UIAlertView *alertSheet;
-
 - (_SBAlertController *)alertController;
 
 @end
